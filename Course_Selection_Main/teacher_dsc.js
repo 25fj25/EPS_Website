@@ -1,6 +1,6 @@
 // Fetch JSON data and dynamically generate the grid
 console.log("blogCMS.js loaded");
-fetch('blog-posts.json')
+fetch('Teacher_DSC.json')
     .then(response => {
         if (!response.ok) {
             throw new Error("Failed to load JSON data");
@@ -39,7 +39,6 @@ fetch('blog-posts.json')
             const description = document.createElement('p');
             description.classList.add('blog-description');
             description.textContent = item.description;
-
             // Append the thumbnail, title, and description to the grid item
             gridItem.appendChild(thumbnail);
             gridItem.appendChild(title);
