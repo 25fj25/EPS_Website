@@ -23,6 +23,8 @@ Contact section school colour: #5e3356
 
 #sectionerAlt {
     background-color: lavender;
+    min-height: auto;
+    padding: 24px 20px;
 }
 
 #contactHeader {
